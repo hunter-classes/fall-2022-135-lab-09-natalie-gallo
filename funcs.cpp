@@ -27,3 +27,12 @@ Coord3D * fartherFromOrigin(Coord3D *p1, Coord3D *p2){
 }
 
 //TASK C
+void move(Coord3D *ppos, Coord3D *pvel, double dt){
+  double x_new = ppos->x + pvel->x * dt;
+  double y_new = ppos->y + pvel->y * dt;
+  double z_new = ppos->z + pvel->z * dt;
+
+  *ppos = {x_new, y_new, z_new};
+}
+
+//TASK D
