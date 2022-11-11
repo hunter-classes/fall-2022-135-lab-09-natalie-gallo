@@ -36,7 +36,7 @@ void move(Coord3D *ppos, Coord3D *pvel, double dt){
   ppos->x = x_new;
   ppos->y = y_new;
   ppos->z = z_new;
-  }
+}
 
 //TASK D - in file called "poem.cpp"
 

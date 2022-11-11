@@ -43,7 +43,7 @@ int main()
   //TASK E
   cout << endl << "TASK E" << endl;
   /*double x, y, z;
-  cout << "Enter position: ";
+{  cout << "Enter position: ";
   cin >> x >> y >> z;*/
   Coord3D *ppos = createCoord3D(10,20,30);
     
